@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void fib() {
     int i, n, t1 = 0, t2 = 1, nextTerm;
     printf("Enter the number of terms: ");
     scanf("%d", &n);
@@ -12,5 +12,5 @@ int main() {
         t2 = nextTerm;
     }
 
-    return 0;
+//    return 0;
 }

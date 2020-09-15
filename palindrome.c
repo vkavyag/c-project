@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void pal() {
     int n, reversedN = 0, remainder, originalN;
     printf("Enter an integer: ");
     scanf("%d", &n);
@@ -18,6 +18,6 @@ int main() {
     else
         printf("%d is not a palindrome.", originalN);
 
-    return 0;
+//    return 0;
 }
 

@@ -9,10 +9,10 @@ unsigned int factorial(unsigned int n)
 } 
   
 // Driver code 
-int main() 
+void fact() 
 { 
     int num = 5; 
     printf("Factorial of %d is %d", 
            num, factorial(num)); 
-    return 0; 
+//    return 0; 
 }
